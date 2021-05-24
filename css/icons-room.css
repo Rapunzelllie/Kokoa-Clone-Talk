@@ -1,0 +1,39 @@
+.icons-room {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.icons-room-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons-room-icons i {
+  font-size: 35px;
+}
+
+.icons-room-icons span {
+  margin-top: 10px;
+}
+
+.icons-room-bottom {
+  display: flex;
+  justify-content: flex-start;  
+}
+
+.icons-room-bottom-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 75px;
+}
+
+.icons-room-bottom-icons i {  font-size: 35px;
+  
+}
+
+.icons-room-bottom-icons span {
+  margin-top: 10px;
+}
