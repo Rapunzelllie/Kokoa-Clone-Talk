@@ -1,0 +1,77 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.nav_ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_link {
+  color: #2e363e;
+  position: relative;
+}
+
+@keyframes notifiAnimation {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.nav_notice {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  animation: notifiAnimation 2s ease-in-out infinite;
+}
+
+.nav_notice2 {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+}
+
+@keyframes appearBtnAnimation {
+  from {    
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav_list {
+  transform: translateY(80px);
+  opacity: 0;
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+
+.nav_list:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.nav_list:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.nav_list:last-child {
+  animation-delay: 0.9s;
+}
