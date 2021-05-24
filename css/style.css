@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variable.css";
+@import "login.css";
+@import "nav-bar.css";
+@import "first-header.css";
+@import "friends.css";
+@import "user-profile.css";
+@import "talk-notice.css";
+@import "cog-notice.css";
+@import "search.css";
+@import "icons-room.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chatting.css";
+@import "no-mobile.css";
+
+body {
+  height: 1000vh;
+  color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--space);
+}
+
+.blank {
+  width: 20%;
+  height: 63px;
+}
